@@ -84,8 +84,7 @@ const Home = () => {
               <div className="hero__content  ">
                 <h5 className="mb-3">Easy way to make an order</h5>
                 <h1 className="mb-4 hero__title">
-                {/* <span>HUNGRY?</span> Just wait <br /> food at
-                <span> your door</span> */}
+                 <span>HUNGRY?</span>Lets' change that!
                 </h1>
 
                 <p>
@@ -132,11 +131,11 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h5 className="feature__subtitle mb-4">What we serve</h5>
-              <h2 className="feature__title">Just sit back </h2>
-              <h2 className="feature__title">
+              {/* <h5 className="feature__subtitle mb-4">What we serve</h5>
+              <h2 className="feature__title">Just sit back </h2> */}
+              {/* <h2 className="feature__title">
                 we will <span>take care</span>
-              </h2>
+              </h2> */}
               <p className="mb-1 mt-4 feature__text">
                 {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, */}
                 {/* officiis? */}

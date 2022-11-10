@@ -54,6 +54,7 @@ const Checkout = () => {
            ...userShippingAddress
     });
     toast.success("Order placed successfully!")
+    // toast.success("Order will be out in 40mins!")
     dispatch(cartActions.emptyCart())
   };
 
