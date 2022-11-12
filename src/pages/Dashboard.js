@@ -64,7 +64,8 @@ export const Dashboard = () => {
 
     return (
         <div className='container'>
-            <p>Hello {user?.email},</p>
+            <p>Hello admin</p>
+            {/* <p>Hello {user?.email},</p> */}
             <h3>Products</h3>
             <div>
                 {showForm ? 
