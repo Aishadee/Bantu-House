@@ -65,7 +65,6 @@ export const Dashboard = () => {
     return (
         <div className='container'>
             <p>Hello admin</p>
-            {/* <p>Hello {user?.email},</p> */}
             <h3>Products</h3>
             <div>
                 {showForm ? 
@@ -114,6 +113,7 @@ export const Dashboard = () => {
                     <th>Name</th>
                     <th>Price</th>
                     <th>Category</th>
+                    <th>Description</th>
                     <th>Image</th>
                     </tr>
                 </thead>
@@ -124,6 +124,7 @@ export const Dashboard = () => {
                     <td>{product.name}</td>
                     <td>${product.price}</td>
                     <td>{product.category}</td>
+                    <td>{product.description}</td>
                     <td><img src={product.image1} alt="Product image" width={50} height={50} /></td>
                     </tr>
                 )}
@@ -150,18 +151,9 @@ export const Dashboard = () => {
                     <td>${order.totalAmount}</td>
                     <td>{order.order_type}</td>
                     <td>{`${order?.country} ${order?.state || ''} ${order?.street_address}`}</td>
-                    <td>{order.products?.length}</td>
+                    <td>{order.products?.map((product) => <span>{product.name},</span>)}</td>
                     </tr>
                 )}
-                {/* {products.map((product, idx) => 
-                    <tr key={`${idx+1}`}>
-                    <td>{idx+1}</td>
-                    <td>{product.name}</td>
-                    </tr>
-                )} */}
-
-
-
                 </tbody>
             </table>
             

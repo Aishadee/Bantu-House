@@ -53,8 +53,11 @@ const Checkout = () => {
     set(orderRef, {
            ...userShippingAddress
     });
-    toast.success("Order placed successfully!")
-    // toast.success("Order will be out in 40mins!")
+    if(orderType === "delivery") {
+      toast.success("Order placed successfully, will be out in 40mins!")
+    }else {
+      toast.success("Order placed successfully!")
+    }
     dispatch(cartActions.emptyCart())
   };
 
@@ -128,14 +131,6 @@ const Checkout = () => {
                     onChange={(e) => setEnterCity(e.target.value)}
                   />
                 </div>
-                {/* <div className="form__group">
-                  <input
-                    type="text"
-                    placeholder="Street Address"
-                    required
-                    onChange={(e) => setEnterStreet(e.target.value)}
-                  />
-                </div> */}
                 <div className="form__group">
                   <input
                     type="number"
