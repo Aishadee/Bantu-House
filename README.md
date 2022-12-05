@@ -16,7 +16,16 @@ This application is developed as a capstone project for Application Software Dev
 
 
 ### Screenshots of some Interfaces 
+--
+Landing Page 
+image.png
 
+
+Menu
+Screenshot (168).png
+
+Admin
+image.png
 
 
 ### Demo on how to use the website (link)
