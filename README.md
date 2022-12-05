@@ -1,9 +1,9 @@
 ## Online Restaurant Management System (ORMS)
 
-
+## Website Link:  https://bantuhouse.netlify.app/home
 ## The primary goal of “ORMS” is to reach a larger number of consumers and allow them to make orders online using an interactive menu either for dine-in, pickup, or delivery and reserve tables at the restaurant. 
 
-The Restaurant:
+### The Restaurant:
 Bantu House Bantu House is afro-carribbean fusion that serves our customes a perfect blend of both the African and Carribbean culture.
 
 ### Project Description
