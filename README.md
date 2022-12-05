@@ -16,17 +16,16 @@ This application is developed as a capstone project for Application Software Dev
 
 
 ### Screenshots of some Interfaces 
---
-Landing Page 
-image.png
+---
+### Landing Page 
+![image](https://user-images.githubusercontent.com/89050352/205751230-a207aeb7-a194-4d90-97fd-62a409d17280.png)
 
 
-Menu
-Screenshot (168).png
+### Menu (Dishes restaurant offer)
+![Screenshot (168)](https://user-images.githubusercontent.com/89050352/205751470-048b9523-6c19-4d97-912b-85fb9fd0bb7d.png)
 
-Admin
-image.png
-
+### Admin (Products are added and ordered being placed / tables being reserved are stored.
+![image](https://user-images.githubusercontent.com/89050352/205751546-32509044-49cd-4d69-91d8-8c561d1b5d9b.png)
 
 ### Demo on how to use the website (link)
 
