@@ -55,6 +55,8 @@ const Checkout = () => {
     });
     if(orderType === "delivery") {
       toast.success("Order placed successfully, will be out in 40mins!")
+  //   } if (orderType === "pickup"){
+  //     toast.success("Order placed successfully, pickup time in 20mins!")
     }else {
       toast.success("Order placed successfully!")
     }
