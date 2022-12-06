@@ -99,10 +99,6 @@ export const Dashboard = () => {
                         <label> Image Link 3</label>
                         <input onChange={handleChange} name="image3" type={"text"} placeholder="Name" />
                     </div>
-                    <div style={{margin:10}}>
-                    <label>Product description</label>
-                    <input name='desc' onChange={handleChange} type={"text"} placeholder="Desc" />
-                    </div>
                     <button type='submit'>Save</button>
                 </form> : <button onClick={() => setShowForm(true)}>Add New Product</button>}
             </div>
@@ -113,7 +109,6 @@ export const Dashboard = () => {
                     <th>Name</th>
                     <th>Price</th>
                     <th>Category</th>
-                    <th>Description</th>
                     <th>Image</th>
                     </tr>
                 </thead>
