@@ -28,6 +28,8 @@ This application is developed as a capstone project for Application Software Dev
 ![image](https://user-images.githubusercontent.com/89050352/205751546-32509044-49cd-4d69-91d8-8c561d1b5d9b.png)
 
 ### Demo on how to use the website (link)
+---
+https://clipchamp.com/watch/MKtueTGuErZ
 
 
 ### Technologies Used:
