@@ -124,7 +124,6 @@ export const Dashboard = () => {
                     <td>{product.name}</td>
                     <td>${product.price}</td>
                     <td>{product.category}</td>
-                    <td>{product.description}</td>
                     <td><img src={product.image1} alt="Product image" width={50} height={50} /></td>
                     </tr>
                 )}
